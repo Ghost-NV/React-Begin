@@ -1,3 +1,5 @@
-**/node_modules/
 node_modules/
+**/node_modules/
+react-1/node_modules/
+Tarmeez-React-Course/node_modules/
 .pnpm-store/
