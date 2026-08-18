@@ -1,0 +1,14 @@
+.color {
+  color: white;
+  position: relative;
+  left: 5px;
+  padding-right: 5px;
+}
+
+.flexFlexy {
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
