@@ -4,6 +4,7 @@ import heroImg from "./assets/hero.png";
 import State1 from "./useState1";
 import State2 from "./useState2";
 import State3 from "./useState3";
+import State4 from "./useState4";
 
 function App() {
   const objStyle = {
@@ -49,9 +50,10 @@ function App() {
         />
         <ul className="flexFlexy">{TasksMap}</ul>
       </header>
+      <State1 style={objStyle2} />
+      <State4 style={objStyle2} />
       <State2 style={objStyle2} />
       <State3 style={objStyle2} />
-      <State1 style={objStyle2} />
     </div>
   );
 }
